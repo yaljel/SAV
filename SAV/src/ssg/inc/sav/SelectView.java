@@ -1,6 +1,7 @@
 package ssg.inc.sav;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -25,15 +26,22 @@ public class SelectView extends Activity {
     }
  
     public void myClickHandler (View v){
+    	Intent intent = new Intent(this, ListView.class);
     	switch(v.getId()){
     		case R.id.button_gudi:
-    			//구디지역에 해당하는 xml load
+    			//구디지역에 해당하는 xml load    			
+    			intent.putExtra("section",  1);
+    		    startActivity(intent);
     			break;
     		case R.id.button_guro:
     			//남구로지역에 해당하는 xml load
+    			intent.putExtra("section",  2);
+    			startActivity(intent);
     			break;
     		case R.id.button_shin:
     			//신당지역에 해당하는 xml load
+    			intent.putExtra("section",  3);
+    			startActivity(intent);
     			break;
     	}
     	
