@@ -1,8 +1,9 @@
 package ssg.inc.sav;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 
 public class SelectView extends Activity {
 
@@ -10,6 +11,9 @@ public class SelectView extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_view);
+               
+        
+        
     }
 
 
@@ -19,5 +23,22 @@ public class SelectView extends Activity {
         getMenuInflater().inflate(R.menu.select_view, menu);
         return true;
     }
-    
+ 
+    public void myClickHandler (View v){
+    	switch(v.getId()){
+    		case R.id.button_gudi:
+    			//구디지역에 해당하는 xml load
+    			break;
+    		case R.id.button_guro:
+    			//남구로지역에 해당하는 xml load
+    			break;
+    		case R.id.button_shin:
+    			//신당지역에 해당하는 xml load
+    			break;
+    	}
+    	
+    }
+
 }
+
+

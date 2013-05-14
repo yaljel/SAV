@@ -6,11 +6,56 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".SelectView" >
-
-    <TextView
+    tools:context=".MainActivity" >
+    
+	<TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="신세계 도시락배달 도우미" />
+
+    <ImageView
+        android:id="@+id/bgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+        android:src="@drawable/map" />
+
+    <Button
+        android:id="@+id/button_guro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_shin"
+        android:layout_alignBottom="@+id/button_shin"
+        android:layout_alignLeft="@+id/bgView"
+        android:onClick="myClickHandler"
+        android:text="구로" />
+
+    <Button
+        android:id="@+id/button_gudi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="69dp"
+        android:layout_toRightOf="@+id/button_guro"
+        android:onClick="myClickHandler"
+        android:text="신당" />
+
+    <Button
+        android:id="@+id/button_shin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_gudi"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/button_guro"
+        android:onClick="myClickHandler"
+        android:text="구디" />
+
+    
 
 </RelativeLayout>
