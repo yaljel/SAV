@@ -22,9 +22,6 @@ public class ListsView extends Activity {
     static final String KEY_ID = "id";
     static final String KEY_TITLE = "title";
     static final String KEY_ARTIST = "artist";
-    static final String KEY_DURATION = "duration";
-    static final String KEY_THUMB_URL = "thumb_url";
- 
     ListView list;
     MakeList adapter;
  
@@ -49,8 +46,6 @@ public class ListsView extends Activity {
             map.put(KEY_ID, parser.getValue(e, KEY_ID));
             map.put(KEY_TITLE, parser.getValue(e, KEY_TITLE));
             map.put(KEY_ARTIST, parser.getValue(e, KEY_ARTIST));
-            map.put(KEY_DURATION, parser.getValue(e, KEY_DURATION));
-            map.put(KEY_THUMB_URL, parser.getValue(e, KEY_THUMB_URL));
  
             // adding HashList to ArrayList
             songsList.add(map);
