@@ -21,16 +21,19 @@
         <activity
             android:name="ssg.inc.sav.SelectView"
             android:label="@string/app_name" >
-        </activity>
-        <activity android:name="DetailView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ListView" >
+        <activity android:name="DetailView" >
+
+        </activity>
+        <activity android:name="ListsView" >
         </activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>

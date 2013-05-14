@@ -26,7 +26,7 @@ public class SelectView extends Activity {
     }
  
     public void myClickHandler (View v){
-    	Intent intent = new Intent(this, ListView.class);
+    	Intent intent = new Intent(this, ListsView.class);
     	switch(v.getId()){
     		case R.id.button_gudi:
     			//구디지역에 해당하는 xml load    			
