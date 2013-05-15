@@ -18,7 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="388dp"
         android:divider="#b5b5b5"
-        android:dividerHeight="1dp" />
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:clickable="true" 
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
 
     <LinearLayout
         android:layout_width="match_parent"
