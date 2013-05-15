@@ -80,7 +80,7 @@ public class ListsView extends Activity {
 
 				//intent.putExtras(extras);
 				startActivity(intent);
-				finish();
+				
 
 			}
 		});
