@@ -3,18 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-    <TextView 
+
+    <TextView
         android:id="@+id/sub_title"
-        android:text="목적지 보기"       
         android:layout_width="match_parent"
-	    android:layout_height="wrap_content" 
-        
-        />
+        android:layout_height="35dp"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="목적지 보기" />
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" 
+        android:layout_height="388dp"
         android:divider="#b5b5b5"
         android:dividerHeight="1dp" />
 

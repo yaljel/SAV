@@ -40,7 +40,7 @@ public class MakeList extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View vi=convertView;
         if(convertView==null)
-            vi = inflater.inflate(R.layout.activity_list_view, null);
+            vi = inflater.inflate(R.layout.list_row, null);
  
         TextView home_name = (TextView)vi.findViewById(R.id.home_name); // title
         TextView address = (TextView)vi.findViewById(R.id.address); // artist name
