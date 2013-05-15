@@ -20,7 +20,6 @@
         android:divider="#b5b5b5"
         android:dividerHeight="1dp"
         android:listSelector="@drawable/list_selector"
-        android:clickable="true" 
         android:focusable="false"
         android:focusableInTouchMode="false"/>
 
