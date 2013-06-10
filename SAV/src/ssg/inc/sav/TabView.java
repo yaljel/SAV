@@ -16,11 +16,11 @@ public class TabView extends TabActivity {
         final TabHost tabHost = getTabHost();
  
         tabHost.addTab(tabHost.newTabSpec("tab1")
-                .setIndicator("목적지")
+                .setIndicator("목적지", getResources().getDrawable(R.drawable.tab_1))
                 .setContent(new Intent(this, LVSample3.class)));
  
         tabHost.addTab(tabHost.newTabSpec("tab2")
-                .setIndicator("담당자")
+                .setIndicator("담당자", getResources().getDrawable(R.drawable.tab_2))
                 .setContent(new Intent(this, ListsView.class)));
                 
     }

@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="할머니"
         android:textColor="#040404"
-        android:textSize="15dip"
+        android:textSize="16dip"
         android:textStyle="bold"
         android:typeface="sans" />
 

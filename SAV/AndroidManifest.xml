@@ -33,7 +33,7 @@
         <activity android:name="DetailView" >
         </activity>
         
-        <activity android:name="TabView" >
+        <activity android:name="TabView">
         </activity>
         <activity android:name="LVSample3" >
         </activity>

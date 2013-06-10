@@ -6,17 +6,15 @@
     android:background="@drawable/sinc2_ui_01_bg2"
     android:padding="5dip">
     
-        
 	<TextView
-        android:id="@+id/sub_title_location"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:textSize="15dip"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="  신당 담당자" />
-
+	    android:id="@+id/sub_title_location"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_gravity="center"
+	    android:gravity="center"
+	    android:text="  신당 담당자"
+	    android:textSize="20dip"
+	    android:textStyle="bold" />
 
     <ListView
         android:id="@+id/list2"
@@ -27,6 +25,7 @@
         android:listSelector="@drawable/list_selector"
         android:focusable="false"
         android:focusableInTouchMode="false"
+        android:padding="5dip"
         android:background="@drawable/sinc2_ui_03_cellbg100"/>
     
 

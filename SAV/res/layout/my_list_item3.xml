@@ -2,8 +2,11 @@
 <ssg.inc.sav.CheckableRelativeLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:nalsil="http://schemas.android.com/apk/res/ssg.inc.sav"
-	android:orientation="horizontal" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" nalsil:checkable="@+id/check">
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	nalsil:checkable="@+id/check"
+	android:padding="5dip">
 
     <!-- 
 	<ImageView android:id="@+id/img" android:layout_width="wrap_content"
@@ -27,6 +30,8 @@
 		android:layout_height="wrap_content" 
 		android:layout_marginRight="45dip"
 		android:layout_alignParentTop="true" 
+		android:textSize="16dp"
+		android:textStyle="bold"
 		android:focusable="false" />
 
 	<TextView android:id="@+id/title" 
@@ -35,5 +40,6 @@
 		android:layout_below="@id/title" 
 		android:layout_alignParentBottom="true"
 		android:text="This is my list item layout" 
+		android:textSize="14dp"
 		android:focusable="false" />
 </ssg.inc.sav.CheckableRelativeLayout>

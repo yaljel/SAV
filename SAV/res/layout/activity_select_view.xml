@@ -21,7 +21,7 @@
         android:layout_below="@+id/button_3"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:background="@drawable/sinc2_ui_01_bnt21"
+        android:background="@drawable/add_button"
         android:text="지원(남)" />
 
     <ImageButton
