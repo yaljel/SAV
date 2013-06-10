@@ -17,7 +17,6 @@ import android.view.MotionEvent;
 import android.view.SubMenu;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.View.MeasureSpec;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -43,11 +42,9 @@ import com.nhn.android.mapviewer.overlay.NMapCalloutCustomOverlay;
 import com.nhn.android.mapviewer.overlay.NMapCalloutOverlay;
 import com.nhn.android.mapviewer.overlay.NMapMyLocationOverlay;
 import com.nhn.android.mapviewer.overlay.NMapOverlayManager;
-import com.nhn.android.mapviewer.overlay.NMapPathDataOverlay;
 import com.nhn.android.mapviewer.overlay.NMapOverlayManager.OnCalloutOverlayListener;
 import com.nhn.android.mapviewer.overlay.NMapPOIdataOverlay;
-
-import ssg.inc.sav.NMapViewerResourceProvider;
+import com.nhn.android.mapviewer.overlay.NMapPathDataOverlay;
 
 public class NMapViewer extends NMapActivity 
 	implements OnMapStateChangeListener, OnCalloutOverlayListener {
