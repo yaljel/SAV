@@ -14,53 +14,64 @@
 
     <ImageButton
         android:id="@+id/button_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+         android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_width="130px"
+        android:layout_height="72px"
         android:layout_below="@+id/button_3"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:src="@drawable/sinc2_ui_01_bnt21"
+        android:background="@drawable/sinc2_ui_01_bnt21"
         android:text="지원(남)" />
 
     <ImageButton
         android:id="@+id/button_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+         android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_width="130px"
+        android:layout_height="72px"
         android:layout_below="@+id/button_1"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:src="@drawable/sinc2_ui_01_bnt24"
+        android:background="@drawable/sinc2_ui_01_bnt24"
         android:text="지원(이)" />
 
     <ImageButton
-        android:id="@+id/button_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:onClick="myClickHandler"
-        android:src="@drawable/sinc2_ui_01_bnt1_shin"
-        android:text="신당" />
-
-    <ImageButton
-        android:id="@+id/button_5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/bgView"
-        android:layout_alignRight="@+id/button_4"
-        android:layout_marginBottom="32dp"
-        android:onClick="myClickHandler"
-        android:src="@drawable/sinc2_ui_01_bnt23"
-        android:text="유통" />
-
-    <ImageButton
         android:id="@+id/button_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+         android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_width="130px"
+        android:layout_height="72px"
         android:layout_alignLeft="@+id/button_3"
         android:layout_below="@+id/button_3"
         android:onClick="myClickHandler"
-        android:src="@drawable/sinc2_ui_01_bnt22"
+        android:background="@drawable/sinc2_ui_01_bnt22"
         android:text="ITO/ITS" />
+
+    <ImageButton
+        android:id="@+id/button_5"
+        android:layout_width="130px"
+        android:layout_height="72px"
+        android:layout_alignLeft="@+id/button_4"
+        android:layout_below="@+id/button_1"
+        android:adjustViewBounds="true"
+        android:background="@drawable/sinc2_ui_01_bnt23"
+        android:onClick="myClickHandler"
+        android:scaleType="fitXY"
+        android:text="유통" />
+
+    <ImageButton
+        android:id="@+id/button_3"
+        android:layout_width="130px"
+        android:layout_height="72px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="162dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/sinc2_ui_01_bnt1_shin"
+        android:onClick="myClickHandler"
+        android:scaleType="fitXY"
+        android:text="신당" />
 
 </RelativeLayout>
