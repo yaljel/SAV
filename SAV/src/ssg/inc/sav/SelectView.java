@@ -1,14 +1,9 @@
 package ssg.inc.sav;
 
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserFactory;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -16,7 +11,6 @@ import android.content.res.XmlResourceParser;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.app.Application;
 
 public class SelectView extends Activity {
 
@@ -24,6 +18,7 @@ public class SelectView extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_view);
+        setTheme(android.R.style.Theme_DeviceDefault_NoActionBar_Fullscreen);
     }
 
 

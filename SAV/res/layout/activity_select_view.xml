@@ -1,76 +1,66 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context=".MainActivity" >
-    
-	<TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="신세계 도시락배달 도우미" />
 
     <ImageView
         android:id="@+id/bgView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView1"
-        android:src="@drawable/map" />
+        android:src="@drawable/sinc2_ui_01_bg4_map" />
 
     <ImageButton
-        android:src="@drawable/sinc2_ui_01_bnt21"
         android:id="@+id/button_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_3"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
+        android:src="@drawable/sinc2_ui_01_bnt21"
         android:text="지원(남)" />
 
-    <Button
+    <ImageButton
         android:id="@+id/button_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_1"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
+        android:src="@drawable/sinc2_ui_01_bnt24"
         android:text="지원(이)" />
 
-    <Button
-        android:id="@+id/button_5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button_2"
-        android:layout_alignBottom="@+id/button_2"
-        android:layout_toLeftOf="@+id/button_3"
-        android:onClick="myClickHandler"
-        android:text="유통" />
-
-    <Button
+    <ImageButton
         android:id="@+id/button_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView1"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="myClickHandler"
+        android:src="@drawable/sinc2_ui_01_bnt1_shin"
         android:text="신당" />
 
-    <Button
+    <ImageButton
+        android:id="@+id/button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bgView"
+        android:layout_alignRight="@+id/button_4"
+        android:layout_marginBottom="32dp"
+        android:onClick="myClickHandler"
+        android:src="@drawable/sinc2_ui_01_bnt23"
+        android:text="유통" />
+
+    <ImageButton
         android:id="@+id/button_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button_2"
-        android:layout_toRightOf="@+id/button_1"
+        android:layout_alignLeft="@+id/button_3"
+        android:layout_below="@+id/button_3"
         android:onClick="myClickHandler"
+        android:src="@drawable/sinc2_ui_01_bnt22"
         android:text="ITO/ITS" />
 
 </RelativeLayout>
