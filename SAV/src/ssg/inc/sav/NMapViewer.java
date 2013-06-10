@@ -178,7 +178,7 @@ public class NMapViewer extends NMapActivity
 		
 		ArrayList<HashMap<String, String>> List = ((Shinsegae)(this.getApplication())).getList();
 		if (uniqueId == -1)
-			{
+		{
 			Long[] checkedItems = ((Shinsegae)(this.getApplication())).getCheckedItems();
 			int count = checkedItems.length;
 			

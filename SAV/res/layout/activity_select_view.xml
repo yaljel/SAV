@@ -26,7 +26,8 @@
         android:layout_alignTop="@+id/textView1"
         android:src="@drawable/map" />
 
-    <Button
+    <ImageButton
+        android:src="@drawable/sinc2_ui_01_bnt21"
         android:id="@+id/button_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

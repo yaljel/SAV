@@ -1,10 +1,9 @@
 package ssg.inc.sav;
 
-import android.app.Activity;
 import android.app.TabActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
-import android.content.Intent;
 
 
 @SuppressWarnings("deprecation")
