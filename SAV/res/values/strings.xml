@@ -7,5 +7,6 @@
     <string name="TEST">주소 출력부</string>
     <string name="text_view_string1">선택지역 출력부</string>
     <string name="text_view_string2">상세주소 출력부</string>
+    <string name="str_done">완료</string>
 
 </resources>

@@ -18,7 +18,7 @@
         android:textStyle="bold"
         android:typeface="sans" />
 
-    <!-- Artist Name -->
+    <!-- 
 
     <TextView
         android:id="@+id/address"
@@ -30,15 +30,6 @@
         android:textColor="#343434"
         android:textSize="10dip" />
 
-    <!-- Rightend Arrow -->
-
-    <CheckBox
-        android:id="@+id/check_box"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/address"
-        android:layout_alignParentRight="true"
-        android:focusable="false"
-        android:clickable="false" />
+    -->
 
 </RelativeLayout>

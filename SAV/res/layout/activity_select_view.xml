@@ -27,35 +27,49 @@
         android:src="@drawable/map" />
 
     <Button
-        android:id="@+id/button_guro"
+        android:id="@+id/button_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button_shin"
-        android:layout_alignBottom="@+id/button_shin"
-        android:layout_alignLeft="@+id/bgView"
+        android:layout_below="@+id/button_3"
+        android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:text="구로" />
+        android:text="지원(남)" />
 
     <Button
-        android:id="@+id/button_gudi"
+        android:id="@+id/button_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/button_1"
+        android:layout_toLeftOf="@+id/button_5"
+        android:onClick="myClickHandler"
+        android:text="지원(이)" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_2"
+        android:layout_alignBottom="@+id/button_2"
+        android:layout_toLeftOf="@+id/button_3"
+        android:onClick="myClickHandler"
+        android:text="유통" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="69dp"
-        android:layout_toRightOf="@+id/button_guro"
         android:onClick="myClickHandler"
         android:text="신당" />
 
     <Button
-        android:id="@+id/button_shin"
+        android:id="@+id/button_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button_gudi"
-        android:layout_marginTop="42dp"
-        android:layout_toRightOf="@+id/button_guro"
+        android:layout_above="@+id/button_2"
+        android:layout_toRightOf="@+id/button_1"
         android:onClick="myClickHandler"
-        android:text="구디" />
-
-    
+        android:text="ITO/ITS" />
 
 </RelativeLayout>

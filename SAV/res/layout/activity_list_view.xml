@@ -3,42 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/sub_title"
+    
+	<TextView
+        android:id="@+id/sub_title_location"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="20dp"
         android:textSize="15dip"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:text="목적지 보기" />
+        android:gravity="center"
+        android:text="  신당 담당자" />
+
 
     <ListView
-        android:id="@+id/list"
+        android:id="@+id/list2"
         android:layout_width="match_parent"
-        android:layout_height="388dp"
+        android:layout_height="match_parent"
         android:divider="#b5b5b5"
         android:dividerHeight="1dp"
         android:listSelector="@drawable/list_selector"
         android:focusable="false"
         android:focusableInTouchMode="false"/>
+    
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/button_all"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="전체보기" />
-
-        <Button
-            android:id="@+id/button_selected"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="선택보기" />
-    </LinearLayout>
+    
 
 </LinearLayout>

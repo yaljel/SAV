@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Sav>
+		<Area>지원(남)</Area>
+		<Name>이복염</Name>
+		<Address>252번지 38호 20통 2반 2층동</Address>
+		<Lng>126.8915365</Lng>
+		<Lat>37.4838892</Lat>
+		<Phone>010-7739-0134</Phone>
+		<Memo>국기봉에 걸어주세요</Memo>
+	</Sav>
+	<Sav>
+		<Area>지원(남)</Area>
+		<Name>김태경</Name>
+		<Address>796번지 56호 도림로6길 37</Address>
+		<Lng>126.8893511</Lng>
+		<Lat>37.4850313</Lat>
+		<Phone>010-2532-2450</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>지원(이)</Area>
+		<Name>심상복</Name>
+		<Address>디지털로32가길 9 (구로동)대성빌라 고시원</Address>
+		<Lng>126.89934462109</Lng>
+		<Lat>37.4827254364756</Lat>
+		<Phone>260302-1155610</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>지원(이)</Area>
+		<Name>최계분</Name>
+		<Address>시흥대로161길26 장미연립204호</Address>
+		<Lng>126.897860795999</Lng>
+		<Lat>37.4797724637085</Lat>
+		<Phone>010-2403-1050</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>유통</Area>
+		<Name>김병림</Name>
+		<Address>도림로8길 2 (구로동) 4통 4반</Address>
+		<Lng>126.887337089836</Lng>
+		<Lat>37.4858823622918</Lat>
+		<Phone>02-863-0616</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>유통</Area>
+		<Name>장남해</Name>
+		<Address> 디지털로27라길 34-3, 1층동 101호 (구로동) 7  통 3  반</Address>
+		<Lng>126.889195553231</Lng>
+		<Lat>37.486125611738</Lat>
+		<Phone>02-865-2702</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>ITO/ITS</Area>
+		<Name>이순례</Name>
+		<Address>디지털로27라길 64-6,201호(구로동)</Address>
+		<Lng>126.88989514598</Lng>
+		<Lat>37.4870849391967</Lat>
+		<Phone>010-4559-6043</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>ITO/ITS</Area>
+		<Name>권만길</Name>
+		<Address>디지털로27라길 64-6, 1층동 102호 (구로동) 14통 3반</Address>
+		<Lng>126.88989514598</Lng>
+		<Lat>37.4870849391967</Lat>
+		<Phone>010-6391-2668</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>신당</Area>
+		<Name>임완근</Name>
+		<Address>퇴계로 388 에이스고시원 4층 56호 (신당1-247-11)</Address>
+		<Lng>127.01473731276</Lng>
+		<Lat>37.565011712205</Lat>
+		<Phone>010-9487-2493</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>신당</Area>
+		<Name>신정숙</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (신당1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구로</Area>
+		<Name>임완근</Name>
+		<Address>퇴계로 388 에이스고시원 4층 56호 (구로1-247-11)</Address>
+		<Lng>127.01473731276</Lng>
+		<Lat>37.565011712205</Lat>
+		<Phone>010-9487-2493</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙2</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙3</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙4</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙5</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙6</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙7</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙8</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙9</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙a</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙b</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙c</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙d</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙e</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙f</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙g</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙h</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙i</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙j</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+	<Sav>
+		<Area>구디</Area>
+		<Name>신정숙k</Name>
+		<Address>퇴계로 386-23 중구보건소 옆 (구디1-247-40)</Address>
+		<Lng>127.014411277329</Lng>
+		<Lat>37.5646801843388</Lat>
+		<Phone>02-2235-6599</Phone>
+		<Memo></Memo>
+	</Sav>
+</test>
