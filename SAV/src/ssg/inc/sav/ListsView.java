@@ -39,6 +39,7 @@ public class ListsView extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_list_view);
+		officerList.clear();
 		
 		TextView subTitle = (TextView) findViewById(R.id.sub_title_location);
 		// based on selected location. 1:지원(남), 2:지원(이), 3:신당, 4:ITO/ITS, 5:유동
