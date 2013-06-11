@@ -58,7 +58,7 @@
 	<Sav>
 		<Area>지원(이)</Area>
 		<Name>정봉술</Name>
-		<Address>시흥대로161길 26, 304호 (구로동,장미연립) 29통 8반</Address>
+		<Address>시흥대로161길 26, 304호 29통 8반</Address>
 		<Lng>126.8975652</Lng>
 		<Lat>37.4801608</Lat>
 		<Phone>02-851-7943</Phone>
@@ -141,7 +141,7 @@
 	<Sav>
 		<Area>유통</Area>
 		<Name>김옥자</Name>
-		<Address> 792번지 82호 지층동 102호 /디지털로27라길 39-13</Address>
+		<Address> 디지털로27라길 39-13 102호 </Address>
 		<Lng>126.8884154</Lng>
 		<Lat>37.4865134</Lat>
 		<Phone>010-3222-4918</Phone>
@@ -173,7 +173,7 @@
 	<Sav>
 		<Area>유통</Area>
 		<Name>장남해</Name>
-		<Address> 디지털로27라길 34-3, 1층동 101호 (구로동) 7  통 3  반</Address>
+		<Address> 디지털로27라길 34-3, 1층동 101호  7통 3반</Address>
 		<Lng>126.889195553231</Lng>
 		<Lat>37.486125611738</Lat>
 		<Phone>02-865-2702</Phone>
@@ -245,7 +245,7 @@
 	<Sav>
 		<Area>ITO/ITS</Area>
 		<Name>권만길</Name>
-		<Address>디지털로27라길 64-6, 1층동 102호 (구로동) 14통 3반</Address>
+		<Address>디지털로27라길 64-6, 1층동 102호 14통 3반</Address>
 		<Lng>126.88989514598</Lng>
 		<Lat>37.4870849391967</Lat>
 		<Phone>010-6391-2668</Phone>
@@ -413,7 +413,7 @@
 	<Sav>
 		<Area>신당</Area>
 		<Name>조광한</Name>
-		<Address>퇴계로 83길 34-10 1층 중앙공인중개사 간판 (황학-237)</Address>
+		<Address>퇴계로 83길 34-10 1층 중앙공인중개사 간판</Address>
 		<Lng>127.0188381</Lng>
 		<Lat>37.567237</Lat>
 		<Phone>02-2234-6537 </Phone>

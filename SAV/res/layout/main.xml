@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/sinc2_ui_01_bg2"
+    android:background="@drawable/sinc2_ui_01_bg1"
     android:orientation="vertical"
     android:padding="5dip" >
 
@@ -51,7 +51,10 @@
                 android:id="@+id/btnDelete"
                 android:layout_width="40dip"
                 android:layout_height="40dip"
-                android:background="@drawable/sinc2_ui_02_abar_btn1_map" />
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/sinc2_ui_02_mapbtn" />
         </LinearLayout>
     </LinearLayout>
 
