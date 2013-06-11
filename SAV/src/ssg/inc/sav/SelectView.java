@@ -132,6 +132,10 @@ public class SelectView extends Activity {
 						{
 							field = 7;
 						}
+						else if(tag.compareTo("Img") == 0)
+						{
+							field = 8;
+						}
 						break;
 					case XmlPullParser.TEXT:
 						// 아이템 안에 subject 라는 태그의 데이터를 가지고 오기.
@@ -160,6 +164,9 @@ public class SelectView extends Activity {
 							case 7:
 								map.put("Memo", parser.getText());
 								break;
+							case 8:
+								map.put("Img", parser.getText());
+								break;	
 							
 						}
 						break;

@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -19,6 +20,7 @@ import android.view.SubMenu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -89,6 +91,8 @@ public class NMapViewer extends NMapActivity
 	private NMapPOIitem mFloatingPOIitem;
 
 	private static boolean USE_XML_LAYOUT = false;
+	
+	private ImageView mDialog;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -97,12 +101,13 @@ public class NMapViewer extends NMapActivity
 		Intent intent = getIntent();
 		int uniqueId = intent.getExtras().getInt("uniqueId");
 		
-        ActionBar actionbar = null;
-        actionbar = getActionBar();
-      //액션바에 별도의 배경 이미지 지정
-        actionbar.setBackgroundDrawable(this.getResources().getDrawable(R.drawable.sinc2_ui_02_abar1));
-        actionbar.setTitle("신세계 도시락배달 도우미");
-        actionbar.setIcon(R.drawable.sinc_ui_abar_logo);
+		ActionBar actionbar = null;
+		actionbar = getActionBar();
+		// 액션바에 별도의 배경 이미지 지정
+		actionbar.setBackgroundDrawable(this.getResources().getDrawable(
+				R.drawable.sinc2_ui_02_abar1));
+		actionbar.setTitle("신세계 도시락배달 도우미");
+		actionbar.setIcon(R.drawable.sinc_ui_abar_logo);
 
 		if (USE_XML_LAYOUT) {
 
@@ -179,6 +184,7 @@ public class NMapViewer extends NMapActivity
 		
 		int markerId = NMapPOIflagType.PIN;
 		
+		
 		// 吏�룄���쒖떆
 		
 		ArrayList<HashMap<String, String>> List = ((Shinsegae)(this.getApplication())).getList();
@@ -192,7 +198,8 @@ public class NMapViewer extends NMapActivity
 			
 			for (int i = 0; i < count; i++)
 			{
-				poiData.addPOIitem(Double.parseDouble(List.get((int)(long)checkedItems[i]).get("Lng")), Double.parseDouble(List.get((int)(long)checkedItems[i]).get("Lat")), List.get((int)(long)checkedItems[i]).get("Name"), markerId, 0);
+				String temp = List.get((int)(long)checkedItems[i]).get("Img")+"\n"+List.get((int)(long)checkedItems[i]).get("Name")+"\n"+List.get((int)(long)checkedItems[i]).get("Address")+"\n"+List.get((int)(long)checkedItems[i]).get("Phone")+"\n"+List.get((int)(long)checkedItems[i]).get("Memo");
+				poiData.addPOIitem(Double.parseDouble(List.get((int)(long)checkedItems[i]).get("Lng")), Double.parseDouble(List.get((int)(long)checkedItems[i]).get("Lat")), temp, markerId, 0);
 			}
 			poiData.endPOIdata();
 			NMapPOIdataOverlay poiDataOverlay = mOverlayManager.createPOIdataOverlay(poiData, null);
@@ -200,9 +207,10 @@ public class NMapViewer extends NMapActivity
 		}
 		else
 		{
+			String temp = List.get((int)(long)uniqueId).get("Img")+"\n"+List.get((int)(long)uniqueId).get("Name")+"\n"+List.get((int)(long)uniqueId).get("Address")+"\n"+List.get((int)(long)uniqueId).get("Phone")+"\n"+List.get((int)(long)uniqueId).get("Memo");
 			NMapPOIdata poiData = new NMapPOIdata(1, mMapViewerResourceProvider);
 			poiData.beginPOIdata(1);
-			poiData.addPOIitem(Double.parseDouble(List.get((int)(long)uniqueId).get("Lng")), Double.parseDouble(List.get((int)(long)uniqueId).get("Lat")), List.get((int)(long)uniqueId).get("Name"), markerId, 0);
+			poiData.addPOIitem(Double.parseDouble(List.get((int)(long)uniqueId).get("Lng")), Double.parseDouble(List.get((int)(long)uniqueId).get("Lat")), temp, markerId, 0);
 			poiData.endPOIdata();
 			NMapPOIdataOverlay poiDataOverlay = mOverlayManager.createPOIdataOverlay(poiData, null);
 			poiDataOverlay.showAllPOIdata(0);
@@ -567,8 +575,6 @@ public class NMapViewer extends NMapActivity
 
 		@Override
 		public void onTouchUp(NMapView mapView, MotionEvent ev) {
-			
-			
 			// TODO Auto-generated method stub
 
 		}
@@ -1019,7 +1025,34 @@ public class NMapViewer extends NMapActivity
 	public NMapCalloutOverlay onCreateCalloutOverlay(NMapOverlay arg0,
 			NMapOverlayItem arg1, Rect arg2) {
 		// TODO Auto-generated method stub
-		Toast.makeText(this, arg1.getTitle(), Toast.LENGTH_SHORT).show();
+		// image popup
+		//int tmpID = getResources().getIdentifier("jessica", "drawable",getPackageName());
+		
+		//mDialog = (ImageView)findViewById(R.drawable.concept_car);
+        //mDialog.setClickable(true);
+		
+		   
+//        Toast toast = Toast.makeText(this, arg1.getTitle(), Toast.LENGTH_LONG);
+//        toast .setGravity(Gravity.BOTTOM | Gravity.CENTER,0,0);
+//        LinearLayout view= (LinearLayout) toast.getView();
+//        ImageView image= new ImageView(getApplicationContext());
+//        image.setImageResource(R.drawable.tab_1);
+//        view.addView(image,0);
+//        toast.show();
+        
+        Intent intent = new Intent(this, PopupActivity.class);
+        
+        String[] contents = arg1.getTitle().split("\n");
+        
+        
+        intent.putExtra("name", contents[1]);
+        intent.putExtra("address", contents[2]);
+        intent.putExtra("phone", contents[3]);
+        intent.putExtra("memo", contents[4]);
+        intent.putExtra("home_image", contents[0]);
+        
+        startActivity(intent);
+        
 		return null;
 	}
 
