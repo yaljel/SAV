@@ -21,7 +21,7 @@
         android:layout_below="@+id/button_3"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:background="@drawable/add_button"
+        android:background="@drawable/button_1"
         android:text="지원(남)" />
 
     <ImageButton
@@ -33,7 +33,7 @@
         android:layout_below="@+id/button_1"
         android:layout_toLeftOf="@+id/button_5"
         android:onClick="myClickHandler"
-        android:background="@drawable/sinc2_ui_01_bnt24"
+        android:background="@drawable/button_2"
         android:text="지원(이)" />
 
     <ImageButton
@@ -45,7 +45,7 @@
         android:layout_alignLeft="@+id/button_3"
         android:layout_below="@+id/button_3"
         android:onClick="myClickHandler"
-        android:background="@drawable/sinc2_ui_01_bnt22"
+        android:background="@drawable/button_4"
         android:text="ITO/ITS" />
 
     <ImageButton
@@ -55,7 +55,7 @@
         android:layout_alignLeft="@+id/button_4"
         android:layout_below="@+id/button_1"
         android:adjustViewBounds="true"
-        android:background="@drawable/sinc2_ui_01_bnt23"
+        android:background="@drawable/button_5"
         android:onClick="myClickHandler"
         android:scaleType="fitXY"
         android:text="유통" />
@@ -69,7 +69,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginTop="162dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/sinc2_ui_01_bnt1_shin"
+        android:background="@drawable/button_3"
         android:onClick="myClickHandler"
         android:scaleType="fitXY"
         android:text="신당" />

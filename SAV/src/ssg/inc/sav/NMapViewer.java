@@ -559,6 +559,8 @@ public class NMapViewer extends NMapActivity
 
 		@Override
 		public void onTouchUp(NMapView mapView, MotionEvent ev) {
+			
+			
 			// TODO Auto-generated method stub
 
 		}

@@ -8,13 +8,17 @@
 	nalsil:checkable="@+id/check"
 	android:padding="5dip">
 
-    <!-- 
-	<ImageView android:id="@+id/img" android:layout_width="wrap_content"
-		android:layout_height="wrap_content" android:layout_alignParentLeft="true"
-		android:layout_alignParentTop="true" android:layout_alignParentBottom="true"
-		android:src="@drawable/icon" android:focusable="false" />
-	 -->
-	 
+
+	<ImageView android:id="@+id/icon1" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true" 
+		android:layout_alignParentBottom="true"
+		android:layout_centerVertical="true"
+		android:src="@drawable/sinc2_ui_03_cell_icon1" 
+		android:focusable="false" />
+
 	<CheckBox android:id="@id/check" 
 	    android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
@@ -28,7 +32,7 @@
 	<TextView android:id="@+id/summary" 
 	    android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
-		android:layout_marginRight="45dip"
+		android:layout_toRightOf="@id/icon1"
 		android:layout_alignParentTop="true" 
 		android:textSize="16dp"
 		android:textStyle="bold"
@@ -37,6 +41,7 @@
 	<TextView android:id="@+id/title" 
 	    android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@id/icon1"
 		android:layout_below="@id/title" 
 		android:layout_alignParentBottom="true"
 		android:text="This is my list item layout" 

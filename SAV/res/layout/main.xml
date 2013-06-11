@@ -1,50 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-    xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" 
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent" 
-	android:background="@drawable/sinc2_ui_01_bg2"
-	android:padding="5dip">
-	<LinearLayout android:orientation="horizontal"
-		android:layout_width="fill_parent" android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/sinc2_ui_01_bg2"
+    android:orientation="vertical"
+    android:padding="5dip" >
 
-		<TextView
-		    android:id="@+id/sub_title_List"
-		    android:layout_width="194dp"
-		    android:layout_height="wrap_content"
-		    android:gravity="center"
-		    android:text="신당 목적지"
-		    android:textSize="20dp"
-		    android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
 
-		<Button
-		    android:id="@+id/btnSearch"
-		    android:layout_width="fill_parent"
-		    android:layout_height="40dip"
-		    android:layout_weight="1"
-		    android:background="@drawable/sinc2_ui_03_sabar_btn4_list" />
+        <TextView
+            android:id="@+id/sub_title_List"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="신당 목적지"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
-		<Button 
-		    android:id="@+id/btnAdd"
-			android:layout_width="fill_parent" 
-			android:layout_height="40dip"
-			android:layout_weight="1" 			
-			android:background="@drawable/sinc2_ui_03_sabar_btn3_cbox"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical">
 
-		<Button 
-		    android:id="@+id/btnDelete"
-			android:layout_width="fill_parent" 
-			android:layout_height="40dip"
-			android:layout_weight="1" 
-			android:background="@drawable/sinc2_ui_03_cell_icon1"/>
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/sinc2_ui_03_sabar_btn4_list" />
 
-	</LinearLayout>
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/sinc2_ui_03_sabar_btn3_cbox" />
 
-	<ListView 
-	    android:id="@+id/list" 
-	    android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:background="@drawable/sinc2_ui_03_cellbg100"/>
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:background="@drawable/sinc2_ui_02_abar_btn1_map" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sinc2_ui_03_cellbg100" />
 
 </LinearLayout>
