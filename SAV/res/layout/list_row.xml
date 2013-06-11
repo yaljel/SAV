@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="72dp"
     android:background="@drawable/list_selector"
-    android:orientation="horizontal"
+    android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:padding="5dip"
     android:gravity="center_vertical"
-    android:padding="10dip" >
+    >
 
     <!-- Title Of Song -->
 	
@@ -18,29 +19,26 @@
 		android:layout_centerVertical="true"
 		android:src="@drawable/sinc2_ui_03_cell_icon2" 
 		android:focusable="false" />
-	
-    <TextView
-        android:id="@+id/home_name"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/icon2"
-        android:gravity="center_vertical"
-        android:text="할머니"
-        android:textSize="16dip" />
 
-    <!-- 
+    
+	<TextView android:id="@+id/home_name" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@id/icon2"
+		android:layout_alignParentTop="true" 
+		android:textSize="16dp"
+		android:textStyle="bold"
+		android:focusable="false" />
 
-    <TextView
-        android:id="@+id/address"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/home_name"
-        android:layout_marginTop="1dip"
-        android:text="주소넣기"
-        android:textColor="#343434"
-        android:textSize="10dip" />
+	<TextView android:id="@+id/team_name" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@id/icon2"
+		android:layout_below="@id/home_name" 
+		android:layout_alignParentBottom="true"
+		android:textSize="14dp"
+		android:focusable="false" />    
+    
 
-    -->
 
 </RelativeLayout>

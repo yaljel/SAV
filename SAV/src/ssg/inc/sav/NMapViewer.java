@@ -3,6 +3,7 @@ package ssg.inc.sav;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -95,6 +96,13 @@ public class NMapViewer extends NMapActivity
 		super.onCreate(savedInstanceState);
 		Intent intent = getIntent();
 		int uniqueId = intent.getExtras().getInt("uniqueId");
+		
+        ActionBar actionbar = null;
+        actionbar = getActionBar();
+      //액션바에 별도의 배경 이미지 지정
+        actionbar.setBackgroundDrawable(this.getResources().getDrawable(R.drawable.sinc2_ui_02_abar1));
+        actionbar.setTitle("신세계 도시락배달 도우미");
+        actionbar.setIcon(R.drawable.sinc2_ui_03_cell_icon1);
 
 		if (USE_XML_LAYOUT) {
 

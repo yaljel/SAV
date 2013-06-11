@@ -43,14 +43,16 @@ public class MakeList extends BaseAdapter {
             vi = inflater.inflate(R.layout.list_row, null);
  
         TextView home_name = (TextView)vi.findViewById(R.id.home_name); // title
+        TextView team_name = (TextView)vi.findViewById(R.id.team_name); // title
  
         HashMap<String, String> song = new HashMap<String, String>();
         song = data.get(position);
  
         // Setting all values in listview
         String TeamNamePosition;
-        TeamNamePosition = song.get(ListsView.KEY_TEAM) + " " + song.get(ListsView.KEY_EMP) + " " + song.get(ListsView.KEY_POSITION);
+        TeamNamePosition =  song.get(ListsView.KEY_EMP) + " " + song.get(ListsView.KEY_POSITION);
         home_name.setText(TeamNamePosition);
+        team_name.setText(song.get(ListsView.KEY_TEAM));
 
         return vi;
     }

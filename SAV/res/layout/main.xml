@@ -59,6 +59,6 @@
         android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/sinc2_ui_03_cellbg100" />
+        android:listSelector="@drawable/list_selector"/>
 
 </LinearLayout>
