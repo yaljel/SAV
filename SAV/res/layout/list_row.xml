@@ -28,7 +28,8 @@
 		android:layout_alignParentTop="true" 
 		android:textSize="16dp"
 		android:textStyle="bold"
-		android:focusable="false" />
+		android:focusable="false"
+		android:textColor="#26140d" />
 
 	<TextView android:id="@+id/team_name" 
 	    android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
 		android:layout_below="@id/home_name" 
 		android:layout_alignParentBottom="true"
 		android:textSize="14dp"
-		android:focusable="false" />    
+		android:focusable="false"
+		android:textColor="#26140d" />    
     
 
 

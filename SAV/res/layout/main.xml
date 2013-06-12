@@ -14,47 +14,38 @@
 
         <TextView
             android:id="@+id/sub_title_List"
-            android:layout_width="wrap_content"
+            android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:gravity="center"
+            android:layout_weight="1"
+            android:gravity="left"
             android:text="신당 목적지"
             android:textSize="20dp"
-            android:textStyle="bold" />
+            android:textStyle="bold" 
+            android:textColor="#26140d"/>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="right|center_vertical">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnSearch"
-                android:layout_width="40dip"
-                android:layout_height="40dip"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
                 android:background="@drawable/sinc2_ui_03_sabar_btn4_list" />
 
             <Button
                 android:id="@+id/btnAdd"
-                android:layout_width="40dip"
-                android:layout_height="40dip"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
                 android:background="@drawable/sinc2_ui_03_sabar_btn3_cbox" />
 
+            
             <Button
                 android:id="@+id/btnDelete"
-                android:layout_width="40dip"
-                android:layout_height="40dip"
-                android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:background="@drawable/sinc2_ui_02_mapbtn" />
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@drawable/sinc2_ui_02_mapbtn_1" />
         </LinearLayout>
     </LinearLayout>
 
