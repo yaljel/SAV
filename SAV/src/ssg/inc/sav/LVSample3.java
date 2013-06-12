@@ -40,8 +40,8 @@ public class LVSample3 extends Activity implements OnClickListener {
 
 	private DialogInterface.OnClickListener deleteYesListener;
 	private DialogInterface.OnClickListener deleteNoListener;
-	private static ArrayList<HashMap<String, String>> parsedList;
-	private static Long[] savedItems;
+	private ArrayList<HashMap<String, String>> parsedList;
+	private Long[] savedItems;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -262,7 +262,7 @@ public class LVSample3 extends Activity implements OnClickListener {
 		}
 	}
 
-	private static List<LVSample3Item> getDataSource() {
+	private List<LVSample3Item> getDataSource() {
 		List<LVSample3Item> lstItems = new ArrayList<LVSample3Item>();
 		for (int i = 0; i < parsedList.size(); i++) {
 			LVSample3Item item = new LVSample3Item(parsedList.get(i).get("Address"), parsedList.get(i).get("Name"), parsedList.get(i).get("Id"));
@@ -272,7 +272,7 @@ public class LVSample3 extends Activity implements OnClickListener {
 	}
 
 	// Not used
-	private static List<LVSample3Item> addDataSource(List<LVSample3Item> dataSources) {
+	private List<LVSample3Item> addDataSource(List<LVSample3Item> dataSources) {
 		LVSample3Item item = new LVSample3Item("Added" + dataSources.size(), "This is a added mssage.", "Not used Function");
 		dataSources.add(item);
 
@@ -280,12 +280,12 @@ public class LVSample3 extends Activity implements OnClickListener {
 	}
 	
 	// Not used
-	private static void ShowMessageBox(Context context, String message) {
+	private void ShowMessageBox(Context context, String message) {
 		Toast.makeText(context, message, Toast.LENGTH_LONG).show();
 	}
 	
 	// Not used
-	public static void ShowMessageYesNo(Context context, String title, String message,
+	public void ShowMessageYesNo(Context context, String title, String message,
 			DialogInterface.OnClickListener YesListener, DialogInterface.OnClickListener NoListener) {
 		AlertDialog.Builder alterBuilder = new AlertDialog.Builder(context);
 		alterBuilder.setMessage(message).setCancelable(false).setPositiveButton(android.R.string.yes, YesListener)
@@ -336,5 +336,11 @@ public class LVSample3 extends Activity implements OnClickListener {
 		
 		((LVSample3Adapter) adapter).notifyDataSetChanged();
 		
+	}
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		dataSources.clear();
 	}
 }
