@@ -37,7 +37,7 @@ public class TabView extends TabActivity implements OnTabChangeListener {
                 .setContent(new Intent(this, LVSample3.class)));
  
         tabHost.addTab(tabHost.newTabSpec("tab2")
-                .setIndicator("담당자", getResources().getDrawable(R.drawable.tab_2))
+                .setIndicator("봉사자", getResources().getDrawable(R.drawable.tab_2))
                 .setContent(new Intent(this, ListsView.class)));
 
                 

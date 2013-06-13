@@ -45,23 +45,23 @@ public class ListsView extends Activity {
 		// based on selected location. 1:지원(남), 2:지원(이), 3:신당, 4:ITO/ITS, 5:유동
 		if (((Shinsegae)(this.getApplication())).getSelection() == 1)
 		{
-			subTitle.setText("지원(남) 담당자");
+			subTitle.setText("지원(남) 봉사자");
 		}
 		else if (((Shinsegae)(this.getApplication())).getSelection() == 2)
 		{
-			subTitle.setText("지원(이) 담당자");
+			subTitle.setText("지원(이) 봉사자");
 		}
 		else if (((Shinsegae)(this.getApplication())).getSelection() == 3)
 		{
-			subTitle.setText("신당 담당자");
+			subTitle.setText("신당 봉사자");
 		}
 		else if (((Shinsegae)(this.getApplication())).getSelection() == 4)
 		{
-			subTitle.setText("ITO/ITS 담당자");
+			subTitle.setText("ITO/ITS 봉사자");
 		}
 		else if (((Shinsegae)(this.getApplication())).getSelection() == 5)
 		{
-			subTitle.setText("유통 담당자");
+			subTitle.setText("유통 봉사자");
 		}
 		
 

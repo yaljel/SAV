@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sav>
+		<Area>지원(남)</Area>
+		<Name>신세계</Name>
+		<Address>용인시 처인구 남사면 완장리 586</Address>
+		<Lng>127.182979</Lng>
+		<Lat>37.1494945</Lat>
+		<Phone>010-1234-5678</Phone>
+		<Memo>산길 조심하세요!</Memo>
+		<Img>shinsegae</Img>
+	</Sav>
 	<Sav>
 		<Area>지원(남)</Area>
 		<Name>이복염</Name>

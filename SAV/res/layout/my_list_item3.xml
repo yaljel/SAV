@@ -16,6 +16,7 @@
 		android:layout_alignParentTop="true" 
 		android:layout_alignParentBottom="true"
 		android:layout_centerVertical="true"
+		android:paddingRight="8dp"
 		android:src="@drawable/sinc2_ui_03_cell_icon1" 
 		android:focusable="false" />
 
